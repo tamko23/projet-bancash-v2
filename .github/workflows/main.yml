@@ -30,4 +30,4 @@ jobs:
                   context: .
                   file: ./Dockerfile
                   push: true
-                  tags: user/bancash:latest
+                  tags: tambak23/node_app:latest
