@@ -18,6 +18,7 @@ jobs:
         version: 'v1.28.0' # default is latest stable
       id: install
 
+
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
