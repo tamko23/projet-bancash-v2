@@ -1,10 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-   name: demos
+   name: nodejs-service
+   app: nodejs
 spec:
    selector:
-      app: demos
+      app: nodejs
    ports:
       - protocol: TCP
         port: 80
